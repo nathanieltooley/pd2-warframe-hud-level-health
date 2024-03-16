@@ -156,6 +156,8 @@ function HUDFloatingUnitLabel:update(t, dt)
 	local skip_anim = self._panel:alpha() == 0 or self._health_bar:alpha() == 0 or not self._panel:visible()
 	self._health_bar:set_data(hp, max_hp, armor, max_armor, skip_anim)
 	self._health_bar:set_invulnerable(invulnerable)
+
+	self._level_text:set_text(tostring(hp))
 end
 
 function HUDFloatingUnitLabel:set_unit(unit, instant, compact_override)
