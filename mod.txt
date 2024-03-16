@@ -7,10 +7,6 @@
 	"color" : "0.043 0.808 0.6",
 	"image" : "mod.png",
 	"version" : "1.6.7",
-	"updates" : [{
-		"identifier" : "pd2-warframe-hud",
-		"host": { "meta" : "https://updates.hoppip.at/pd2-warframe-hud" }
-	}],
 	"dependencies" : {
 		"pd2-hoplib" : { "meta": "https://updates.hoppip.at/pd2-hoplib" }
 	},
